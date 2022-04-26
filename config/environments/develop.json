@@ -1,0 +1,87 @@
+{
+  "mongo": {
+    "hosts": [
+      "localhost:27017"
+    ],
+    "database": "voteme_development",
+    "username": "",
+    "password": "",
+    "debug": false,
+    "replicaSet": ""
+  },
+  "server": {
+    "port": 8080
+  },
+  "SMTP": {
+    "host": "smtp.gmail.com",
+    "port": 465,
+    "secureConnection": true,
+    "debug": true,
+    "username": "rachanaprajapati1234@gmail.com",
+    "password": "Rachana@3110",
+    "from": "rachanaprajapati1234@gmail.com",
+    "baseURL": "http://localhost:9090"
+  },
+  "token": {
+    "expired": 1440
+  },
+  "google": {
+    "api-key": "AIzaSyAe_hDJxZt9q4cAVWwOxFUoGS2QlOgRJ3g"
+  },
+  "jwt": {
+    "JWT_SECRET": "3AMiLZDF6JJKwLGhaOZNg9I8Ya/13rrfK7GilBu8ZPlsQhoCiUW+uPpo0l5cDi2CYJxJKWkd5V1DRcBS"
+  },
+  "aws": {
+    "REGION": "ap-south-1",
+    "S3_BUCKET_ACCESS_KEY_ID": "AKIAZFBWQXIEMPQDKZ3A",
+    "S3_BUCKET_SECRET_ACCESS_KEY": "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",
+    "S3_BUCKET_IMAGES_PROFILEIMAGE": "voteme-development-images/Profileimage",
+    "S3_BUCKET_IMAGES_CATEGORYIMAGE": "voteme-development-categories",
+    "S3_BUCKET_QUERYIMAGES": "voteme-development-images",
+    "S3_BUCKET_QUERYAUDIOS": "voteme-development-audios",
+    "S3_BUCKET_QUERYVIDEOS": "voteme-development-videos"
+  },
+   "contentType":{
+    "image":[
+          "image/png",
+          "image/jpg",
+          "image/gif",
+          "image/jpeg"
+        ],
+    "audio":[
+          "audio/flac",
+          "audio/mpeg",
+          "audio/aac",
+          "audio/mp3"
+        ],
+    "video":[
+          "video/mp4",
+          "video/m4a",
+          "video/wmv",
+          "video/quicktime",
+          "video/mov",
+          "video/x-flv"
+        ]
+  },
+  "fileSize":{
+      "image":5000000,
+      "audio":10000000,
+      "video":20000000
+  },
+  "extension": [
+    ".jpeg",
+    ".jpg",
+    ".png",
+    ".gif",
+    ".mp3",
+    ".flac",
+    ".mpeg",
+    ".aac",
+    ".mp4",
+    ".mpa",
+    ".wmv",
+    ".quicktime",
+    ".mov",
+    ".flv"
+  ]
+}

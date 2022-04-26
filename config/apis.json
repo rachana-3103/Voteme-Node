@@ -1,0 +1,23 @@
+{
+  "GET": {
+    "/samples": {
+      "id": 1,
+      "name": "Get all sample data",
+      "category": "Sample APIs"
+    },
+    "/restaurants": {
+      "id": 2,
+      "name": "Get Restaurants",
+      "category": "Restaurants"
+    }
+  },
+  "POST": {
+    "/samples": {"id": 2, "name": "Add new sample data", "category": "Push Notification"}
+  },
+  "PUT":{
+    "/samples": {"id": 2, "name": "Add new sample data", "category": "Push Notification"}
+  },
+  "DELETE":{
+    "/samples": {"id": 2, "name": "Add new sample data", "category": "Push Notification"}
+  }
+}

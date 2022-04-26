@@ -1,0 +1,37 @@
+{
+  "ValidationError": {
+    "name": "ValidationError",
+    "code": "1001",
+    "message": "The parameters passed to the API call are invalid, parameters that caused the problem are \"{parameters}\"",
+    "http_code": "400",
+    "send_notification": "false"
+  },
+  "GeneralError": {
+    "name": "GeneralError",
+    "code": "1099",
+    "message": "I'm sorry, something went wrong on our end. If it happens again send us feedback and we will get back to you asap.",
+    "http_code": "400",
+    "send_notification": "false"
+  },
+  "ExternalGeneralAPIFault":{
+    "name":"ExternalGeneralAPIFault",
+    "code":"5099",
+    "message":"Some Error Occurred in SOAP API Call, API Error Code: {fault_code}, API Error Message: {fault_string}",
+    "http_code":"500",
+    "send_notification":"true"
+  },
+  "Unauthorized":{
+    "name":"Unauthorized",
+    "code":"6000",
+    "message":"authorization missing",
+    "http_code":"401",
+    "send_notification":"true"
+  },
+  "BadToken":{
+    "name":"BadToken",
+    "code":"6001",
+    "message":"Authorization token in not valid",
+    "http_code":"401",
+    "send_notification":"true"
+  }
+}

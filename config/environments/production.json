@@ -1,0 +1,31 @@
+{
+  "mongo": {
+    "hosts": [
+      "localhost:27017"
+    ],
+    "database": "bookandine_development",
+    "username": "",
+    "password": "",
+    "debug": false,
+    "replicaSet": ""
+  },
+  "server": {
+    "port": 3000
+  },
+  "SMTP": {
+    "host":"smtp.gmail.com",
+    "port":465,
+    "secureConnection":true,
+    "debug":true,
+    "username": "amitpandya.htg@gmail.com",
+    "password": "HTG@2020",
+    "from":"amitpandya.user@gmail.com",
+    "baseURL":"http://localhost:9090"
+  },
+  "token":{
+    "expired": 1440
+  },
+  "google":{
+    "api-key":"AIzaSyDwtkU8jS65b7cxMzwWrYNzd2XFfgQ8Cgo"
+  }
+}
